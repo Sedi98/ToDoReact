@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={style.footer}>
       <p>
-        Copyright &copy;
+        Copyright &copy; 2024
         {new Date().getFullYear() === 2024
           ? " "
           : `-${new Date().getFullYear()}`}{" "}
