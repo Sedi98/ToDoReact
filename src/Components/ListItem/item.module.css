@@ -1,0 +1,42 @@
+.item {
+  display: flex;
+
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.itemCompleted {
+  display: flex;
+
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.itemTitle,
+.itemCount,
+.itemDelete {
+    margin: 5px;
+}
+
+
+.itemDelete{
+  color: red;
+  margin-left: auto;
+  font-size: 24px;
+}
+
+.itemCompleted .itemTitle {
+  text-decoration: line-through;
+}
+
+.itemCount {
+  font-size: 20px;
+  font-weight: 600;
+  color: #583c87;
+}

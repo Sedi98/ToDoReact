@@ -1,0 +1,20 @@
+.button {
+  width: 20%;
+  height: calc(100% - 10px);
+
+  border: none;
+  background-color: #f5f5f5;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 10px;
+  background-color: #583c87;
+  color: #f5f5f5;
+}
+
+
+
